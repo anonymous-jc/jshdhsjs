@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:cyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.emoji {
+  font-size: 20rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+.wm{
+  position:absolute;
+  bottom:3px;
+}
+.click{
+  color:blue;
+  position:absolute;
+  right:129px;
+  bottom:180px;
+}
